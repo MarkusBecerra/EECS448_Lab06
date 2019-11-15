@@ -100,3 +100,13 @@ void Test::enqueueChar()
     std::cout<<"FAILED \n";
   }
 }
+
+void Test::enqueueDequeuePeekFront()
+{
+  Queue q;
+  q.enqueue(21);
+  q.enqueue(25);
+  q.enqueue(27);
+  q.dequeue();
+  std::cout<<"peekfront";
+}

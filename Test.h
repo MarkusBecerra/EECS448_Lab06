@@ -14,8 +14,12 @@ void enqueueOnEmptyPeekFront();
 void enqueueMultiplePeekFront();
 void enqueueDequeueIsEmpty();
 void enqueueChar();
-//void enqueuePeekFrontDequeueIsEmpty();
-//void enqueueDequeueAllIsEmpty();
+void enqueuePeekFrontDequeueIsEmpty();
+void enqueueDequeuePeekFront();
+void peekFrontEmpty();
+void testDequeue();
+
+
 
 public:
   void run();
