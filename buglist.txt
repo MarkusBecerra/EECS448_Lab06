@@ -1,0 +1,5 @@
+Markus Becerra - Buglist
+
+1. Whenever enqueue is called, the new node is placed at the front of the queue instead of the back. This makes the structure seem more like a Stack than a Queue.
+2. The destructor for the queue class doesnt seem to delete objects on the heap properly, as when valgrind is called, there are memory leaks.
+3. Nodes in the queue can take chars, but I assume when an char is passed in, it's converted to it's int ASCII value.
